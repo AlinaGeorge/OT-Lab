@@ -1,10 +1,4 @@
-Write a Python function that calculates the Economic Order Quantity (EOQ) given the annual demand, ordering cost, and holding cost per unit.
-The function should take these three parameters as input and return the calculated EOQ.
-
-
-A company manufactures 10,000 units of a product annually. The ordering cost per order is $200, and the holding cost per unit per year is $5.
-Write Python code to calculate the EOQ using the function you defined in part 1.
-Print the calculated EOQ to the consoleCYCLE 1
+CYCLE 1
 
 1. Implement Travelling salesman Problem
 2. Implement the 0/1 knapsack problem using dynamic programming
@@ -49,15 +43,20 @@ u1​,u2​,u3​≥0
 
 
 Labcycle questions
-Transportation Problems:
+2.Transportation Problems:
 
     Develop a program to find the optimal transportation plan for a given set of supply and demand points, along with the associated transportation costs. The program should minimize the total transportation cost.
     Write a program to solve a transportation problem using the Vogel's Approximation Method (VAM). The program should take the supply and demand for each location, as well as the transportation costs between them, as input and return the optimal transportation plan (minimizing total cost).
     Implement a function to calculate the initial feasible solution based on VAM
 
- 
-
 3. Assignment Problem:
 
     Create a program to solve an assignment problem where a set of tasks needs to be assigned to a set of workers, with associated costs. The program should minimize the total assignment cost while ensuring each task is assigned to only one worker and each worker receives only one task.
     Write a program to solve an assignment problem using the Hungarian Algorithm. The program should take the cost matrix representing the assignment costs between different tasks and workers as input and return the optimal assignment (minimizing total cost) with no conflicts.
+
+4.Inventory problems:
+    4.1 Write a Python function that calculates the Economic Order Quantity (EOQ) given the annual demand, ordering cost, and holding cost per unit.
+    The function should take these three parameters as input and return the calculated EOQ.
+    4.2 A company manufactures 10,000 units of a product annually. The ordering cost per order is $200, and the holding cost per unit per year is $5.
+    Write Python code to calculate the EOQ using the function you defined in part 1.
+    Print the calculated EOQ to the console
